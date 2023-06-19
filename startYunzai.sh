@@ -1,6 +1,6 @@
 #! /bin/bash
 ## 转到Ubuntu目录
-cd ~/Termux-Linux/Ubuntu
+cd /data/data/com.termux/files/home/Termux-Linux/Ubuntu
 ./start-ubuntu.sh
 
 ## 启动redis
