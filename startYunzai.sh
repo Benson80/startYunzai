@@ -1,8 +1,3 @@
-#! /bin/bash
-## 转到Ubuntu目录
-cd "$(pwd)/Termux-Linux/Ubuntu"
-./start-ubuntu.sh
-
 ## 启动redis
 redis-server --daemonize yes --save 900 1 --save 300 10
 
