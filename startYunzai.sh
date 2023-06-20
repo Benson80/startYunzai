@@ -1,3 +1,5 @@
+#! /bin/bash
+
 ## 启动redis
 redis-server --daemonize yes --save 900 1 --save 300 10
 
