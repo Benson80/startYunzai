@@ -1,6 +1,8 @@
 # startYunzai
 安卓端安装并启动云崽机器人
 
+# 保持设备唤醒状态
+termux-wake-lock
 # 更换镜像源为清华源
 termux-change-repo
 # 更新软件包
