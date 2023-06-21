@@ -1,3 +1,5 @@
+#! /bin/bash
+
 ## 依赖安装
 pkg install proot git python -y
 
