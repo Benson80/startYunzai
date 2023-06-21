@@ -31,6 +31,14 @@ wget https://raw.githubusercontent.com/Benson80/startYunzai/main/installYunzai.s
 sed -i 's/\r$//' installYunzai.sh
 # 运行installYunzai.sh
 bash installYunzai.sh
+# 下载更新云崽脚本文件
+wget https://raw.githubusercontent.com/Benson80/startYunzai/main/updateYunzai.sh
+# 删除回车符
+sed -i 's/\r$//' updateYunzai.sh
+# 转到云崽目录
+cd Yunzai-Bot
+# 执行updateYunzai.sh
+bash ../updateYunzai.sh
 # 下载启动云崽脚本文件
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/startYunzai.sh
 # 删除回车符
