@@ -15,6 +15,12 @@ wget https://raw.githubusercontent.com/Benson80/startYunzai/main/init-termux.sh
 sed -i 's/\r$//' init-termux.sh
 # 执行init-termux.sh
 bash init-termux.sh
+# 下载初始化Termux脚本文件
+wget https://raw.githubusercontent.com/Benson80/startYunzai/main/termux-install-linux.sh
+# 删除回车符
+sed -i 's/\r$//' termux-install-linux.sh
+# 执行termux-install-linux.sh
+bash termux-install-linux.sh
 # 下载启动Ubuntu脚本文件
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/start-ubuntu.sh
 # 执行start-ubuntu.sh
