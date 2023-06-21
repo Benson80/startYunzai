@@ -25,6 +25,12 @@ bash termux-install-linux.sh
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/start-ubuntu.sh
 # 执行start-ubuntu.sh
 bash start-ubuntu.sh
+# 下载安装云崽脚本文件
+wget https://raw.githubusercontent.com/Benson80/startYunzai/main/installYunzai.sh
+# 删除回车符
+sed -i 's/\r$//' installYunzai.sh
+# 运行installYunzai.sh
+bash installYunzai.sh
 # 下载启动云崽脚本文件
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/startYunzai.sh
 # 删除回车符
