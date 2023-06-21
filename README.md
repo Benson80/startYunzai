@@ -9,6 +9,10 @@ pkg update
 pkg install wget
 # 下载初始化Termux脚本文件
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/init-termux.sh
+# 删除回车符
+sed -i 's/\r$//' init-termux.sh
+# 执行init-termux.sh
+bash init-termux.sh
 # 下载启动Ubuntu脚本文件
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/start-ubuntu.sh
 # 执行start-ubuntu.sh
