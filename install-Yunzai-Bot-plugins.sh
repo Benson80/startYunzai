@@ -1,14 +1,16 @@
 #! /bin/bash
 
-#¿ËÂ¡ß÷ß÷£¬Ä¬ÈÏ°²×°
+cd Yunzai-Bot
+
+#å…‹éš†å–µå–µï¼Œé»˜è®¤å®‰è£…
 if [ ! -d "plugins/miao-plugin" ]
 then
 git clone --depth=1 https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
 fi
 
-#¿ËÂ¡Ğé¿Õ£¬ÈÃÓÃ»§Ñ¡ÔñÊÇ·ñ°²×°
+#å…‹éš†è™šç©ºï¼Œè®©ç”¨æˆ·é€‰æ‹©æ˜¯å¦å®‰è£…
 while true; do
-read -p "ÊÇ·ñ°²×°Ğé¿Õ²å¼ş? (y/n) " yn
+read -p "æ˜¯å¦å®‰è£…è™šç©ºæ’ä»¶? (y/n) " yn
 case $yn in
 [Yy]* )
 if [ ! -d "plugins/akasha-terminal-plugin" ]
@@ -17,13 +19,13 @@ git clone --depth 1 https://gitee.com/go-farther-and-farther/akasha-terminal-plu
 fi
 break;;
 [Nn]* ) break;;
-* ) echo "ÇëÊäÈë y »ò n.";;
+* ) echo "è¯·è¾“å…¥ y æˆ– n.";;
 esac
 done
 
-#¿ËÂ¡ÒõÌì£¬ÈÃÓÃ»§Ñ¡ÔñÊÇ·ñ°²×°
+#å…‹éš†é˜´å¤©ï¼Œè®©ç”¨æˆ·é€‰æ‹©æ˜¯å¦å®‰è£…
 while true; do
-read -p "ÊÇ·ñ°²×°ÒõÌì²å¼ş? (y/n) " yn
+read -p "æ˜¯å¦å®‰è£…é˜´å¤©æ’ä»¶? (y/n) " yn
 case $yn in
 [Yy]* )
 if [ ! -d "plugins/y-tian-plugin" ]
@@ -32,13 +34,13 @@ git clone https://gitee.com/wan13877501248/y-tian-plugin.git ./plugins/y-tian-pl
 fi
 break;;
 [Nn]* ) break;;
-* ) echo "ÇëÊäÈë y »ò n.";;
+* ) echo "è¯·è¾“å…¥ y æˆ– n.";;
 esac
 done
 
-#¿ËÂ¡·ãÒ¶£¬ÈÃÓÃ»§Ñ¡ÔñÊÇ·ñ°²×°
+#å…‹éš†æ«å¶ï¼Œè®©ç”¨æˆ·é€‰æ‹©æ˜¯å¦å®‰è£…
 while true; do
-read -p "ÊÇ·ñ°²×°·ãÒ¶²å¼ş? (y/n) " yn
+read -p "æ˜¯å¦å®‰è£…æ«å¶æ’ä»¶? (y/n) " yn
 case $yn in
 [Yy]* )
 if [ ! -d "plugins/hs-qiqi-plugin" ]
@@ -47,13 +49,13 @@ git clone --depth=1 https://github.com/yeyang52/yenai-plugin.git ./plugins/yenai
 fi
 break;;
 [Nn]* ) break;;
-* ) echo "ÇëÊäÈë y »ò n.";;
+* ) echo "è¯·è¾“å…¥ y æˆ– n.";;
 esac
 done
 
-#¿ËÂ¡Ò¬ÄÌ£¬ÈÃÓÃ»§Ñ¡ÔñÊÇ·ñ°²×°
+#å…‹éš†æ¤°å¥¶ï¼Œè®©ç”¨æˆ·é€‰æ‹©æ˜¯å¦å®‰è£…
 while true; do
-read -p "ÊÇ·ñ°²×°Ò¬ÄÌ²å¼ş? (y/n) " yn
+read -p "æ˜¯å¦å®‰è£…æ¤°å¥¶æ’ä»¶? (y/n) " yn
 case $yn in
 [Yy]* )
 if [ ! -d "plugins/yenai-plugin" ]
@@ -62,13 +64,13 @@ git clone --depth=1 https://github.com/yeyang52/yenai-plugin.git ./plugins/yenai
 fi
 break;;
 [Nn]* ) break;;
-* ) echo "ÇëÊäÈë y »ò n.";;
+* ) echo "è¯·è¾“å…¥ y æˆ– n.";;
 esac
 done
 
-#¿ËÂ¡¹ø°Í£¬ÈÃÓÃ»§Ñ¡ÔñÊÇ·ñ°²×°
+#å…‹éš†é”…å·´ï¼Œè®©ç”¨æˆ·é€‰æ‹©æ˜¯å¦å®‰è£…
 while true; do
-read -p "ÊÇ·ñ°²×°¹ø°Í²å¼ş? (y/n) " yn
+read -p "æ˜¯å¦å®‰è£…é”…å·´æ’ä»¶? (y/n) " yn
 case $yn in
 [Yy]* )
 if [ ! -d "plugins/Guoba-Plugin" ]
@@ -77,6 +79,6 @@ git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin.git ./plugins/Gu
 fi
 break;;
 [Nn]* ) break;;
-* ) echo "ÇëÊäÈë y »ò n.";;
+* ) echo "è¯·è¾“å…¥ y æˆ– n.";;
 esac
 done
