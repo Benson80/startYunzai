@@ -90,8 +90,8 @@ pnpm add body-parser -w
 echo "安装完成。"
 
 #提示puppeteer Chromium 启动失败
-apt remove chromium -y
-apt-get install chromium-browser
+pnpm uninstall puppeteer
+pnpm install puppeteer@19.8.3 -w
 
 #删除下载的软件包和无用的依赖
 apt -y autoremove
