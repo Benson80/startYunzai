@@ -49,6 +49,8 @@ bash startYunzai.sh
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/install-Yunzai-Bot-plugins.sh)
 # 删除云崽插件
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/del-Yunzai-Bot-plugins.sh)
+# 复制脚本文件
+bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/copy-jsfile.sh)
 
 注意：用SSH连接Termux出现如下错误提示，请删除ssh host key文件。
 del %USERPROFILE%\\.ssh\\*.* /q
