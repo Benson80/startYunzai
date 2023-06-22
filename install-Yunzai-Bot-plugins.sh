@@ -94,6 +94,6 @@ apt remove chromium -y
 apt-get install chromium-browser
 
 #删除下载的软件包和无用的依赖
-apt -y autoremove&&
-apt -y clean&&
+apt -y autoremove
+apt -y clean
 
