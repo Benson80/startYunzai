@@ -45,8 +45,10 @@ wget https://raw.githubusercontent.com/Benson80/startYunzai/main/startYunzai.sh
 sed -i 's/\r$//' startYunzai.sh
 # 执行startYunzai.sh
 bash startYunzai.sh
-# 安装云崽插件
+# Ubuntu一键安装云崽插件
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/install-Yunzai-Bot-plugins.sh)
+# 删除云崽插件
+bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/del-Yunzai-Bot-plugins.sh)
 
 注意：用SSH连接Termux出现如下错误提示，请删除ssh host key文件。
 del %USERPROFILE%\\.ssh\\*.* /q
