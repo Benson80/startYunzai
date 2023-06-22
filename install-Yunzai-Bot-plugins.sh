@@ -88,3 +88,12 @@ pnpm add body-parser -w
 
 #提示用户完成
 echo "安装完成。"
+
+#提示puppeteer Chromium 启动失败
+sudo apt remove chromium -y
+sudo apt-get install chromium-browser
+
+#删除下载的软件包和无用的依赖
+sudo apt -y autoremove&&
+sudo apt -y clean&&
+
