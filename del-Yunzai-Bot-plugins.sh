@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 要删除的目录列表
-directories=("akasha-terminal-plugin" "y-tian-plugin" "hs-qiqi-plugin" "yenai-plugin" "Guoba-Plugin")
+directories=("akasha-terminal-plugin" "y-tian-plugin" "hs-qiqi-plugin" "yenai-plugin" "Guoba-Plugin" "chatgpt-plugin")
 
 # 循环遍历并删除每个目录
 for dir in "${directories[@]}"
