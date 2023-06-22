@@ -76,6 +76,7 @@ case $yn in
 if [ ! -d "plugins/Guoba-Plugin" ]
 then
 git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin.git ./plugins/Guoba-Plugin/
+pnpm install --filter=guoba-plugin
 fi
 break;;
 [Nn]* ) break;;
