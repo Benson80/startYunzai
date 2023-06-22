@@ -82,3 +82,9 @@ break;;
 * ) echo "请输入 y 或 n.";;
 esac
 done
+
+#安装依赖
+pnpm add body-parser -w
+
+#提示用户完成
+echo "安装完成。"
