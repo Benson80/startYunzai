@@ -5,7 +5,7 @@ cd Yunzai-Bot
 #克隆喵喵，默认安装
 if [ ! -d "plugins/miao-plugin" ]
 then
-git clone --depth=1 https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
+git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git --depth=1 ./plugins/miao-plugin/
 fi
 
 #克隆虚空，让用户选择是否安装
@@ -60,7 +60,7 @@ case $yn in
 [Yy]* )
 if [ ! -d "plugins/yenai-plugin" ]
 then
-git clone --depth=1 https://github.com/yeyang52/yenai-plugin.git ./plugins/yenai-plugin
+git clone --depth=1 https://gitee.com/yeyang52/yenai-plugin.git ./plugins/yenai-plugin
 fi
 break;;
 [Nn]* ) break;;
