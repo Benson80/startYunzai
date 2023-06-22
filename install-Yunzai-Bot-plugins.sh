@@ -45,7 +45,7 @@ case $yn in
 [Yy]* )
 if [ ! -d "plugins/hs-qiqi-plugin" ]
 then
-git clone --depth=1 https://github.com/yeyang52/yenai-plugin.git ./plugins/yenai-plugin
+git clone https://gitee.com/kesally/hs-qiqi-cv-plugin.git  ./plugins/hs-qiqi-plugin
 fi
 break;;
 [Nn]* ) break;;
