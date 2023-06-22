@@ -84,6 +84,23 @@ break;;
 esac
 done
 
+#克隆ChatGPT，让用户选择是否安装
+while true; do
+read -p "是否安装ChatGPT插件? (y/n) " yn
+case $yn in
+[Yy]* )
+if [ ! -d "plugins/chatgpt-plugin" ]
+then
+git clone --depth=1 https://gitee.com/ikechan/chatgpt-plugin.git ./plugins/chatgpt-plugin/
+cd plugins/chatgpt-plugin
+pnpm i
+fi
+break;;
+[Nn]* ) break;;
+* ) echo "请输入 y 或 n.";;
+esac
+done
+
 #安装依赖
 pnpm add body-parser -w
 
