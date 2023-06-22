@@ -5,5 +5,6 @@ cd $(pwd)/Termux-Linux/Ubuntu/ubuntu-fs/root/Yunzai-Bot/plugins/y-tian-plugin/ap
 cp /sdcard/Download/js脚本/'el pro max.js' .
 
 # 复制电车脚本
-cd  $(pwd)/Termux-Linux/Ubuntu/ubuntu-fs/root/Yunzai-Bot/plugins/example
+cd ../..
+cd example
 cp /sdcard/Download/js脚本/tram.js .
