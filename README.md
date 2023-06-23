@@ -14,9 +14,9 @@ bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/init
 # 安装Linux
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/termux-install-linux.sh)
 # 启动Ubuntu
-bash <(curl -sL https://gitee.com/benson80/start-yunzai/raw/master/start-ubuntu.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/start-ubuntu.sh)
 # 安装云崽
-bash <(curl -sL https://gitee.com/benson80/start-yunzai/raw/master/installYunzai.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/installYunzai.sh)
 # 更新云崽
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/updateYunzai.sh
 # 转到云崽目录
@@ -24,7 +24,7 @@ cd Yunzai-Bot
 # 执行updateYunzai.sh
 bash ../updateYunzai.sh
 # 启动云崽
-bash <(curl -sL https://gitee.com/benson80/start-yunzai/raw/master/startYunzai.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/startYunzai.sh)
 # Ubuntu一键安装云崽插件
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/install-Yunzai-Bot-plugins.sh)
 # 删除云崽插件
