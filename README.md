@@ -11,6 +11,7 @@ pkg update
 pkg install wget
 # 初始化Termux
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/init-termux.sh
+
 bash init-termux.sh
 # 安装Linux
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/termux-install-linux.sh)
