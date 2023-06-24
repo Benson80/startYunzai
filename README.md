@@ -18,6 +18,8 @@ bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/term
 # 启动Ubuntu
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/start-ubuntu.sh)
 # 安装云崽
+apt-get update
+apt-get install curl
 bash <(curl -sL https://raw.githubusercontent.com/Benson80/startYunzai/main/installYunzai.sh)
 # 更新云崽
 wget https://raw.githubusercontent.com/Benson80/startYunzai/main/updateYunzai.sh
